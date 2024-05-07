@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 lg:w-4/5 lg:mx-auto">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -27,18 +27,20 @@
                   </div>
                   <a class="btn btn-ghost text-xl">Bike Dekho</a>
                 </div>
-                <div class="navbar-center hidden lg:flex">
+                <div class="navbar-end hidden lg:flex">  
+                    <!-- navbar center chilo age -->
                   <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li><a>Shop</a></li>
                     <li><a>News</a></li>
                     <li><a>Contact</a></li>
+                    <a class="btn bg-[#E76F51] text-[#ffffff]">Login</a>
                   </ul>
                 </div>
-                <div class="navbar-end">
+                <div class="lg:hidden md:navbar-end navbar-end">
                   <a class="btn bg-[#E76F51] text-[#ffffff]">Login</a>
                 </div>
-              </div>
+            </div>
         </nav>
     </header>
 
