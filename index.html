@@ -6,13 +6,22 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+      .pop{  
+         font-family: "Poppins", sans-serif;
+      }
+    </style>
 
 </head>
 
-<body>
+<body class="pop">
     <header>
         <nav>
-            <div class="navbar bg-base-100 lg:w-4/5 lg:mx-auto">
+            <div class="navbar bg-base-100 lg:w-4/5 lg:mx-auto lg:my-9">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -25,7 +34,7 @@
                       <li><a>Contact</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-xl">Bike Dekho</a>
+                  <a class="btn btn-ghost"> <span class="text-4xl font-bold">Bike Dekho</span></a>
                 </div>
                 <div class="navbar-end hidden lg:flex">  
                     <!-- navbar center chilo age -->
@@ -141,12 +150,12 @@
          </div>
       </section>
 
-      <section class="w-full lg:w-4/5 mx-auto mt-40 mb-40">
+      <section class="w-11/12 lg:w-4/5 lg:mx-auto mt-40 mb-40">
         <h1 class="text-center">Latest News</h1>
 
         <div class="lg:flex lg:justify-around"> 
-          <div class="card w-96 bg-base-100 shadow">
-            <figure><img src="images/others/latest1.png" alt="Shoes"/></figure>
+          <div class="card w-96 bg-base-100 border my-12">
+            <figure><img src="images/others/latest1.png" class="pt-6"/></figure>
             <div class="card-body">
               <h2 class="card-title">Ducati XDIAVEL S-73</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
@@ -156,8 +165,8 @@
             </div>
           </div>
 
-          <div class="card w-96 bg-base-100 shadow">
-            <figure><img src="images/others/latest2.png" alt="Shoes" /></figure>
+          <div class="card w-96 bg-base-100 border my-12">
+            <figure><img src="images/others/latest2.png" class="pt-6" /></figure>
             <div class="card-body">
               <h2 class="card-title">Motorcycles & Scooters</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
@@ -167,8 +176,8 @@
             </div>
           </div>
 
-          <div class="card w-96 bg-base-100 shadow">
-            <figure><img src="images/others/latest3.png" alt="Shoes" /></figure>
+          <div class="card w-96 bg-base-100 border my-12">
+            <figure><img src="images/others/latest3.png" class="pt-6" /></figure>
             <div class="card-body">
               <h2 class="card-title">2021 Honda CBR500R</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
